@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="leftSide">
+            <div class="imageContainer">
+                <img src="./images/Pasted image.png" alt="OdinProject logo" class="logo" height="100px" width="75px">
+                <div>Odin</div>
+            </div>
+            <div class="credit">Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></div>
+        </div>
+        <div id="rightSide">
+            <div class="top">Folly was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible.</div>
+            <div class="middle">
+                <form>
+                    <legend>Let's Do this</legend>
+                    <div class="info">
+                        <div class="basic-info">
+                            <div>
+                                <label for="first-name">First Name</label>
+                                <input type="text" placeholder="John" id="first-name">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="JohnDoe@gmail.com">
+                            </div>
+                            <div>
+                                <label for="password">password</label>
+                                <input type="password" id="password" pattern="(^(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':'\\|,.<>\/?]).{8}$)">
+                            </div>
+                        </div>
+                             
+                        <div class="basic-info">
+                            <div>
+                                <label for="last-name">Last name</label>
+                                <input type="text" placeholder="Doe" id="last-name">
+                            </div>
+                            
+                            <div>
+                                <label for="phone-number">Phone Number</label>
+                                <input type="text" inputmode="numeric" id="phone-number">
+                            </div>
+                            <div>
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" id="confirm-password">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </form>
+            </div>
+            <div class="bottom">
+                <button>Create Account</button>
+                <div>Already have an account? <a id="log-in">log in</a></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
