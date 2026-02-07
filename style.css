@@ -79,7 +79,6 @@ input{
   border: 1px solid #ccc; 
   border-radius: 5px;   
   padding: 5px 5px; 
-  border-color: gray;   
 }
 #log-in{
     font-weight: bold;
@@ -102,3 +101,12 @@ input:not(:placeholder-shown):valid{
 input:invalid{
     border-color: red;
 }
+@font-face {
+    font-family: 'odin-font';
+    src: url('./Fonts/Norse-Bold.otf');
+}
+.odin-text{
+    font-family: 'odin-font','Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
